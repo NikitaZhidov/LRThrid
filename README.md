@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/NikitaZhidov/LRThrid.svg?branch=master)](https://travis-ci.org/NikitaZhidov/LRThrid)[![Coverage Status](https://coveralls.io/repos/github/NikitaZhidov/LRThrid/badge.svg?branch=master)](https://coveralls.io/github/NikitaZhidov/LRThrid?branch=master)
