@@ -2,6 +2,8 @@
 #define HELPER_H
 
 #include <QObject>
+#include <QVector>
+#include <QString>
 
 class Helper : public QObject
 {
