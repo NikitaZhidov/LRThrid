@@ -1,9 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QTextStream>
-#include <QFile>
-#include <QDataStream>
 
 #include "helper.h"
 
