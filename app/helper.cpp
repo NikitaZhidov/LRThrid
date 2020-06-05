@@ -47,6 +47,7 @@ QVector<QString> Helper::makeTask(QString Date, QString taskName, QString descTa
     if (!f.open(QIODevice::ReadOnly | QIODevice::Append))
         return TaskList;
 
+
     if (taskName.simplified()[0] == '-'){
         taskName = taskName.simplified();
         taskName[0] = ' ';
