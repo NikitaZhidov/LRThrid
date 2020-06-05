@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Cal_show.qml</file>
+        <file>Style.qml</file>
+        <file>TaskDescription.qml</file>
+        <file>TaskList.qml</file>
+        <file>MadeTasks.qml</file>
+        <file>Img/checkMarkDark.png</file>
+        <file>Img/checkMarkGreen.png</file>
+        <file>Img/checkMarkWhite.png</file>
+        <file>Img/closeIconDark.png</file>
+        <file>Img/closeIconDarkPressed.png</file>
+        <file>Img/closeIconWhite.png</file>
+        <file>Img/closeIconWhitePressed.png</file>
+        <file>Img/editIconDark.png</file>
+        <file>Img/editIconDarkPressed.png</file>
+        <file>Img/editIconWhite.png</file>
+        <file>Img/editIconWhitePressed.png</file>
+        <file>Img/empty.png</file>
+        <file>Img/left_arrow_darkTheme.png</file>
+        <file>Img/left_arrow_darkTheme_pressed.png</file>
+        <file>Img/left_arrow_whiteTheme.png</file>
+        <file>Img/left_arrow_whiteTheme_pressed.png</file>
+        <file>Img/right_arrow_darkTheme.png</file>
+        <file>Img/right_arrow_darkTheme_pressed.png</file>
+        <file>Img/right_arrow_whiteTheme.png</file>
+        <file>Img/right_arrow_whiteTheme_pressed.png</file>
+    </qresource>
+</RCC>
