@@ -36,8 +36,8 @@ TEST(loadDL, positive) {
     file.remove();
     file.close();
 
-    for (auto iter = DescList.begin(); iter != DescList.end(); iter++){
-        if (*iter != mas[i])
+    for (auto &iter : DescList){
+        if (iter != mas[i])
             FAIL();
         i++;
     }

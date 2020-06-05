@@ -40,11 +40,12 @@ TEST(delT_test, positive) {
     file.remove();
     file.close();
 
-    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
-        if (*iter != mas[i])
+    for (auto &iter : TaskList){
+        if (iter != mas[i])
             FAIL();
         i++;
     }
+
     SUCCEED();
 }
 
@@ -83,8 +84,8 @@ TEST(delT_test, negative1) {
     file.remove();
     file.close();
 
-    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
-        if (*iter != mas[i])
+    for (auto &iter : TaskList){
+        if (iter != mas[i])
             FAIL();
         i++;
     }
