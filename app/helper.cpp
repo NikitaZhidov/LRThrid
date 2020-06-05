@@ -30,7 +30,7 @@ QVector<QString> Helper::loadTaskList(QString Date)
         if(!currentline.isEmpty() && !currentline[0].isSpace()){
             word = currentline.simplified();
         }
-        else if (word == Date && currentline.simplified()[0] != '-' && !(currentline == '\n') ) {
+        else if (word == Date && currentline.simplified()[0] != '-' && !(currentline == "\n") ) {
             TaskList.push_back(currentline.simplified());
         }
     }
