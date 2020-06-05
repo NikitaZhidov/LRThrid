@@ -1,4 +1,5 @@
 #include <QGuiApplication>
+#include <QtWidgets/QApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
