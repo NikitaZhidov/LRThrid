@@ -1,4 +1,5 @@
 QT += core quick quickcontrols2 multimedia network
+QT += widgets
 
 TEMPLATE = app
 CONFIG += c++11 qt
