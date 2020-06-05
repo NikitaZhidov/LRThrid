@@ -2,8 +2,10 @@
 #include <QDebug>
 #include <QDir>
 #include <QFile>
+#include <QTextStream>
 #include <QVector>
 #include <QString>
+#include <QVector2D>
 #include <QTextCodec>
 
 Helper::Helper(QObject *parent) : QObject(parent)
