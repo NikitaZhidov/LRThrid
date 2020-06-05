@@ -3,6 +3,7 @@
 #include <QDir>
 #include <QFile>
 #include <QVector>
+#include <QString>
 #include <QTextCodec>
 
 Helper::Helper(QObject *parent) : QObject(parent)
