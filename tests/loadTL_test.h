@@ -35,8 +35,8 @@ TEST(loadTL, positive) {
     file.remove();
     file.close();
 
-    for (auto &iter : TaskList){
-        if (iter != mas[i])
+    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
+        if (*iter != mas[i])
             FAIL();
         i++;
     }

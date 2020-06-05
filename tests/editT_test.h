@@ -36,13 +36,13 @@ TEST(editTest, positive) {
     file.remove();
     file.close();
 
-    for (auto &iter : TaskList){
-        if (iter != TaskName_1_edit)
+    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
+        if (*iter != TaskName_1_edit)
             FAIL();
     }
 
-    for (auto &iter : DescList){
-        if (iter != DescTask_1_edit)
+    for (auto iter = DescList.begin(); iter != DescList.end(); iter++){
+        if (*iter != DescTask_1_edit)
             FAIL();
     }
     SUCCEED();
@@ -78,13 +78,13 @@ TEST(editTest, negative1) {
     file.remove();
     file.close();
 
-    for (auto &iter : TaskList){
-        if (iter != TaskName_1)
+    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
+        if (*iter != TaskName_1)
             FAIL();
     }
 
-    for (auto &iter : DescList){
-        if (iter != DescTask_1)
+    for (auto iter = DescList.begin(); iter != DescList.end(); iter++){
+        if (*iter != DescTask_1)
             FAIL();
     }
     SUCCEED();
@@ -118,13 +118,13 @@ TEST(editTest, negative2){
     file.remove();
     file.close();
 
-    for (auto &iter : TaskList){
-        if (iter != TaskName_1)
+    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
+        if (*iter != TaskName_1)
             FAIL();
     }
 
-    for (auto &iter : DescList){
-        if (iter != DescTask_1)
+    for (auto iter = DescList.begin(); iter != DescList.end(); iter++){
+        if (*iter != DescTask_1)
             FAIL();
     }
     SUCCEED();

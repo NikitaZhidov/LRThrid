@@ -11,6 +11,8 @@ class Helper : public QObject
 public:
     explicit Helper(QObject *parent = nullptr);
 
+signals:
+
 public slots:
     QVector<QString> loadTaskList(QString Date);
     QVector<QString> makeTask(QString Date, QString taskName, QString descTask);

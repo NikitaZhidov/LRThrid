@@ -40,15 +40,15 @@ TEST(makeTest, positive) {
     file.remove();
     file.close();
 
-    for (auto &iter : TaskList){
-        if (iter != mas_task[i])
+    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
+        if (*iter != mas_task[i])
             FAIL();
         i++;
     }
 
     i = 0;
-    for (auto &iter : DescList){
-        if (iter != mas_desc[i])
+    for (auto iter = DescList.begin(); iter != DescList.end(); iter++){
+        if (*iter != mas_desc[i])
             FAIL();
         i++;
     }
@@ -81,12 +81,12 @@ TEST(makeTest, negative) {
     if (!file.open(QIODevice::WriteOnly))
         FAIL();
 
-    for (auto &iter : TaskList){
-        if (iter != TaskName_1_normal)
+    for (auto iter = TaskList.begin(); iter != TaskList.end(); iter++){
+        if (*iter != TaskName_1_normal)
             FAIL();
     }
-    for (auto &iter : DescList){
-        if (iter != DescTask_1)
+    for (auto iter = DescList.begin(); iter != DescList.end(); iter++){
+        if (*iter != DescTask_1)
             FAIL();
     }
 
