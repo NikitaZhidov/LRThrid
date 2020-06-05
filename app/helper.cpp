@@ -1,7 +1,9 @@
 #include "helper.h"
 #include <QDebug>
 #include <QDir>
+#include <QTextStream>
 #include <QFile>
+#include <QDataStream>
 #include <QTextCodec>
 
 Helper::Helper(QObject *parent) : QObject(parent)
