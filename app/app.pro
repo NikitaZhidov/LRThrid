@@ -1,5 +1,5 @@
 QT += quick
-
+QT += widgets
 TEMPLATE = app
 
 
