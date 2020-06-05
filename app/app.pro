@@ -1,6 +1,8 @@
-QT += quick
-TEMPLATE = app
+QT += core quick quickcontrols2 multimedia network
 
+TEMPLATE = app
+CONFIG += c++11 qt
+CONFIG -= app_bundle
 
 SOURCES += \
     helper.cpp \
