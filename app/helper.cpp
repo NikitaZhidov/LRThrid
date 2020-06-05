@@ -83,7 +83,6 @@ QVector<QString> Helper::loadDescList(QString Date)
     QString currentline_simp;
     QString word;
 
-
     while(!in.atEnd()){
         currentline = f.readLine();
         currentline_simp = currentline.simplified();
